@@ -73,4 +73,4 @@ input.setAttribute("oninput", "console.log('foobar');");
 
 # Myself
 
-Honestly, I am amazed at how simple the solution is. This is the smallest shortest library that I have ever written: just ~1.5 hour of work to solve, document, and throw witty sarcasm at a long standing problem. I do not know why, but there is just something satisfying about posting a new project on Github to help and collaberate with other developers. It's like a uniquie thirst that can only be quenched with the water from a single well in all the world.
+Honestly, I am amazed at how simple the solution is. This is the smallest shortest library that I have ever written: just ~1.5 hour of work to solve, document, and throw witty sarcasm at a long standing problem. I do not know why, but there is just something satisfying about posting a new project on Github to help other developers and instigate firey lectures about how terrible it is to modify the native prototype. It's like a uniquie thirst that can only be quenched with the water from a single well in all the world.
