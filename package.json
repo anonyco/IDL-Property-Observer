@@ -1,6 +1,6 @@
 {
   "name": "idl-property-observer",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Plug changes like HTMLInputElement.value into MutationObservers in 744 bytes. Framework agnostic! Made by AnonyCo with ❤️ from 🐕s.",
   "keywords": ["MutationObserver", "IDL", "WebIDL", "HTMLInputElement", "HTMLSelectElement", "HTMLTextAreaElement", "HTMLAudioElement", "HTMLImageElement", "HTMLAnchorElement", "HTMLElement"],
   "homepage": "https://github.com/anonyco/IDL-Property-Observer#quick-start",
@@ -19,5 +19,5 @@
     "type" : "git",
     "url" : "https://github.com/anonyco/IDL-Property-Observer.git"
   },
-  "files": ["IDLPropertyObserver.min.js"]
+  "files": ["dist/IDLPropertyObserver.min.js"]
 }
