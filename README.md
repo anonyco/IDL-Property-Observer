@@ -27,6 +27,8 @@ Preferably, it would be best to copy and paste the code into your main or bundle
 <script defer="" src="https://dl.dropboxusercontent.com/s/evpekrsxsy5zgka/IDLPropertyObserver.min.js?dl=0" type="text/javascript"></script>
 ````
 
+The use of dropbox allows me to push out new versions that address any bugs that I find and such. As I have no big plans or intentions for this library in the future, I will never push up a breaking change that could damage your website. Only bug-fixes will be applied.
+
 ### API
 
 There is no API. This library is merely a monkey-patch for the spotty behavior of Mutation Observers. Observe as the mutation observer fails horribly.
