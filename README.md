@@ -9,7 +9,7 @@
 
 
 # IDL-Property-Observer
-Plug changes like HTMLInputElement.value into MutationObservers. Framework agnostic! **Not responsible for ther poor programming practices that it demonstrates!** This library overwrites native prototypes. Please only use this library as a last-resort if you have a finished project and do not have the time to go back and change the code to fire a common handler on IDL property changes.
+Plug changes like HTMLInputElement.value into MutationObservers. Framework agnostic! **Not responsible for the poor programming practices that it demonstrates!** This library overwrites native prototypes. Please only use this library as a last-resort if you have a finished project and do not have the time to go back and change the code to fire a common handler on IDL property changes.
 
 ### Quick Start
 
