@@ -13,7 +13,7 @@ Plug changes like HTMLInputElement.value into MutationObservers. Framework agnos
 
 ### Quick Start
 
-Drop the following above your code in the HTML of the page. I call this library "framework agnostic" because whatever framework, build system, or language abstraction (such as CoffeeScript) you are using (if any), there is likely a way to include this above your code the page.
+Drop the following above your code in the HTML of the page. I call this library "framework agnostic" because whatever framework, build system, or language abstraction (such as CoffeeScript) you are using (if any), there is likely a way to include this library above your code in the page.
 
 
 ````HTML
