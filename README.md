@@ -1,3 +1,13 @@
+[![npm version](http://img.shields.io/npm/v/idl-property-observer.svg?label=version)](https://npmjs.org/package/idl-property-observer "View this project on npm")
+[![GitHub stars](https://img.shields.io/github/stars/anonyco/IDL-Property-Observer.svg?style=social)](https://github.com/anonyco/IDL-Property-Observer/stargazers "View others who have stared this repository")
+[![GitHub file size in bytes](https://img.shields.io/github/size/anonyco/IDL-Property-Observer/dist/IDLPropertyObserver.min.js.svg?label=without%20gzip)](https://github.com/anonyco/IDL-Property-Observer/blob/master/dist/IDLPropertyObserver.min.js "File without gzip")
+[![GitHub file size in bytes](https://img.shields.io/github/size/anonyco/IDL-Property-Observer/gh-pages/dist/IDLPropertyObserver.min.js.gz.svg?label=gzip%20applied)](https://github.com/anonyco/IDL-Property-Observer/blob/master/dist/IDLPropertyObserver.min.js.gz "Gzipped file")
+[![npm bundle size (version)](https://img.shields.io/bundlephobia/min/idl-property-observer/latest.svg?color=maroon&label=NPM%20bundle%20size)](https://npmjs.org/package/idl-property-observer "View this project on npm")
+[![Issues](http://img.shields.io/github/issues/anonyco/IDL-Property-Observer.svg)]( https://github.com/anonyco/IDL-Property-Observer/issues )
+[![Unlicense license](http://img.shields.io/badge/license-Unlicense-brightgreen.svg)](https://unlicense.org/ "This project's liscence")
+[![npm downloads](https://img.shields.io/npm/dt/idl-property-observer.svg)](https://npmjs.org/package/idl-property-observer "View this project on npm")
+
+
 # IDL-Property-Observer
 Plug changes like HTMLInputElement.value into MutationObservers. Framework agnostic! **Not responsible for ther poor programming practices that it demonstrates!** This library overwrites native prototypes. Please only use this library as a last-resort if you have a finished project and do not have the time to go back and change the code to fire a common handler on IDL property changes.
 
@@ -7,14 +17,14 @@ Drop the following above your code in the HTML of the page. I call this library 
 
 
 ````HTML
-<script src="https://dl.dropboxusercontent.com/s/evpekrsxsy5zgka/EncoderDecoderTogether.min.js?dl=0" type="text/javascript"></script>
+<script src="https://dl.dropboxusercontent.com/s/evpekrsxsy5zgka/IDLPropertyObserver.min.js?dl=0" type="text/javascript"></script>
 ````
 
 Preferably, it would be best to copy and paste the code into your main or bundled Javascript code file inorder to lower network requests and make the page load faster. If this is not possible due to the framework, build system, or language abstraction that you are using, then at least try to add defer="" to all of the scripts so that the browser can download this script from dropbox in synchrony with the one from your website.
 
 
 ````HTML
-<script defer="" src="https://dl.dropboxusercontent.com/s/evpekrsxsy5zgka/EncoderDecoderTogether.min.js?dl=0" type="text/javascript"></script>
+<script defer="" src="https://dl.dropboxusercontent.com/s/evpekrsxsy5zgka/IDLPropertyObserver.min.js?dl=0" type="text/javascript"></script>
 ````
 
 ### API
