@@ -1,0 +1,39 @@
+<!-- Please do not judge me. I simply tried to create this demo as quickly as possible -->
+
+<iframe frameBorder="0" style="position:fixed;width:50%;height:100%;left:0;top:0" srcdoc="
+     <h3>Normal Mutation Observers</h3>
+<ul id='output'></ul>
+<script style='display:block!important;white-space:pre;font:1em monospace;background:#eee'>var input = document.createElement('input');
+var observer = new MutationObserver(function(records){
+	for (var i=0; i<records.length; i=i+1|0)
+		document
+			.getElementById('output')
+			.insertAdjacentHTML(
+				'beforeend',
+				'<li>Attribute ' + records[i].attributeName + ' changed</li>'
+			);
+});
+observer.observe(input, { attributes: 1, subtree: 1 });
+
+input.setAttribute('value', 'testing value');
+input.value = 'new value';</script>
+"></iframe>
+<iframe frameBorder="0" style="position:fixed;width:50%;height:100%;right:0;top:0;border-left:1px solid" srcdoc="
+     <h3>With IDL-Property-Observer</h3>
+     <script src='https://dl.dropboxusercontent.com/s/evpekrsxsy5zgka/IDLPropertyObserver.min.js?dl=0' type='text/javascript'></script>
+<ul id='output'></ul>
+<script style='display:block!important;white-space:pre;font:1em monospace;background:#eee'>var input = document.createElement('input');
+var observer = new MutationObserver(function(records){
+	for (var i=0; i<records.length; i=i+1|0)
+		document
+			.getElementById('output')
+			.insertAdjacentHTML(
+				'beforeend',
+				'<li>Attribute ' + records[i].attributeName + ' changed</li>'
+			);
+});
+observer.observe(input, { attributes: 1, subtree: 1 });
+
+input.setAttribute('value', 'testing value');
+input.value = 'new value';</script>
+"></iframe>
